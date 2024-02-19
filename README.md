@@ -17,14 +17,14 @@ java Minimax {arg1 arg2 arg3 ...}
 IMPORTANT: Order of these arguments does not matter
 
 #### Required command line arguments:
-1. filename - a text file "input.txt" must be provided as an argument to parse into
-IMPORTANT: This file MUST be present in the same directory as the .java file
+1. filename - a text file `input.txt` must be provided as an argument to parse into
+IMPORTANT: This file MUST be present in the same directory as the `.java` file
 
 #### Optional command line arguments:
-1. "max"/"min" - Specifies if the root of the minimax tree is a max or a min player, otherwise DEFAULTS to a min player
-2. "-v" - Gives a verbose solution along with the answer
-3. "-ab" - Gives the alpha-beta pruned solution of the given minimax tree
-4. "-range x" - Specifies the range of leaf values inside the tree as [+x, -x]
+1. `max`/`min` - Specifies if the root of the minimax tree is a max or a min player, otherwise DEFAULTS to a min player
+2. `-v` - Gives a verbose solution along with the answer
+3. `-ab` - Gives the alpha-beta pruned solution of the given minimax tree
+4. `-range x` - Specifies the range of leaf values inside the tree as [+x, -x]
 
 #### Example commands:
 ```
